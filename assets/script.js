@@ -35,7 +35,6 @@ function displayCurrentDay() {
     var eventInput = timeblock.find('.description');
     var eventText = eventInput.val();
     localStorage.setItem(hourId, eventText);
-    // alert('Appointment saved to local storage')
 
     // Display save confirmation message
   var saveConfirmation = $('<span>').addClass('save-confirmation').text('Appointment saved to local storage!');
